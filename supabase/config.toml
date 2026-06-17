@@ -1,0 +1,9 @@
+# Minimal Supabase project config for the Email-Guard auth hook.
+#
+# The hook runs before a JWT exists, so JWT verification MUST be off for this
+# function. The Standard Webhooks signature (EMAILSHERLOCK_HOOK_SECRET) is what
+# authenticates the request instead.
+project_id = "emailsherlock-email-guard"
+
+[functions.email-guard]
+verify_jwt = false
