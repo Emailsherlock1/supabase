@@ -110,5 +110,5 @@ git remote add origin git@github.com:Emailsherlock1/supabase.git
 git push -u origin main
 ```
 
-The `/integrations` directory card on emailsherlock.com is added only after the
+The `/integrations` directory card on hostsherlock.com is added only after the
 repo is public (no vaporware cards).
