@@ -4,7 +4,7 @@ Block disposable and undeliverable email addresses at Supabase signup. This is a
 [Supabase Edge Function](https://supabase.com/docs/guides/functions) that serves
 the [Before User Created](https://supabase.com/docs/guides/auth/auth-hooks/before-user-created-hook)
 auth hook: Supabase calls it before it creates a new user, and the function asks
-the [EmailSherlock](https://emailsherlock.com) verify API whether to allow or
+the [EmailSherlock](https://www.hostsherlock.com) verify API whether to allow or
 reject the signup.
 
 It is a thin client over the public API at `api.emailsherlock.com`; there is no
@@ -44,7 +44,7 @@ fail-open.
 ## Setup
 
 You need the [Supabase CLI](https://supabase.com/docs/guides/local-development)
-and an EmailSherlock API key from [emailsherlock.com/api](https://emailsherlock.com/api).
+and an EmailSherlock API key from [hostsherlock.com/api](https://www.hostsherlock.com/api).
 
 ```bash
 # 1. From a project that has this repo's `supabase/` directory:
@@ -110,5 +110,5 @@ git remote add origin git@github.com:Emailsherlock1/supabase.git
 git push -u origin main
 ```
 
-The `/integrations` directory card on emailsherlock.com is added only after the
+The `/integrations` directory card on hostsherlock.com is added only after the
 repo is public (no vaporware cards).
